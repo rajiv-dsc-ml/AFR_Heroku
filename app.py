@@ -62,12 +62,9 @@ def clean_text(sentence):
 ###################################################
 
 
+
+
 @app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-
-@app.route('/index')
 def index():
     return flask.render_template('index.html')
 
